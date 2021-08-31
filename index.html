@@ -36,9 +36,9 @@
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
+                <!-- <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li> -->
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Awards</a></li>
             </ul>
         </div>
@@ -108,11 +108,12 @@
                 </ul>
                 <br>
                 <div class="subheading mb-3">Cloud Computing Web Services</div>
-                <p>AWS(lambda, EventBridge, API gateway), IBM Watson studio</p>
+                <p>AWS(lambda, EventBridge, API gateway), Google(Maps Platform), IBM Watson studio</p>
                 <ul class="list-inline dev-icons">
                     <li class="list-inline-item"><img src="./assets/icons/lambda.ico" /></li>
                     <li class="list-inline-item"><img src="./assets/icons/bridge.ico" /></li>
                     <li class="list-inline-item"><img src="./assets/icons/gateway.ico" /></li>
+                    <li class="list-inline-item"><img src="./assets/icons/googlemap.png" /></li>
                     <li class="list-inline-item"><img src="./assets/icons/watson.ico" /></li>
                 </ul>
                 </ul>
@@ -145,52 +146,156 @@
         <section class="resume-section" id="projects">
             <div class="resume-section-content">
                 <h2 class="mb-5">Projects</h2>
+
                 <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                     <div class="flex-grow-1">
-                        <h3 class="mb-0">Developer</h3>
-                        <div class="subheading mb-3">Intelitec Solutions</div>
-                        <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of
-                            the day, going forward, a new normal that has evolved from generation X is on the runway
-                            heading towards a streamlined cloud solution. User generated content in real-time will have
-                            multiple touchpoints for offshoring.</p>
+
+                        <h3 class="mb-0">IMMIGLE <a class="social-icon" href="#projects"><img
+                                    src="/assets/icons/git-32.png" /></a></h3>
+                        <!-- <p>Personal Project</p> -->
+                        <div class="subheading mb-3">Business website to manage and track customers </div>
+                        <p>• Implemented score calculator based on customer's data <br>
+                            • Collected and import data into MongoDB for customer management<br>
+                            • Created REST API to allow web site to communicate with MongoDB<br>
+
+                        </p>
+                        <p><b>Technologies</b>: Node.js,HTML, CSS, JavaScript, JQuery, mongoDB, AWS(Lambda, API gateway)
+                        </p>
+                        <ul class="list-inline dev-icons">
+                            <li class="list-inline-item"><img src="https://img.icons8.com/color/48/000000/nodejs.png" />
+                            </li>
+                            <li class="list-inline-item"><img
+                                    src="https://img.icons8.com/color/48/000000/html-5--v1.png" /></li>
+                            <li class="list-inline-item"><img src="https://img.icons8.com/color/48/000000/css3.png" />
+                            </li>
+                            <li class="list-inline-item"><img
+                                    src="https://img.icons8.com/color/48/000000/javascript--v1.png" /></li>
+                            <li class="list-inline-item"><img src="./assets/icons/mongo.ico" /></li>
+                            <li class="list-inline-item"><img src="https://img.icons8.com/color/48/000000/npm.png" />
+                            </li>
+                            <li class="list-inline-item"><img src="./assets/icons/jquery.ico" /></li>
+                            <li class="list-inline-item"><img src="./assets/icons/lambda.ico" /></li>
+                            <li class="list-inline-item"><img src="./assets/icons/gateway.ico" /></li>
+                        </ul>
                     </div>
-                    <div class="flex-shrink-0"><span class="text-primary">March 2013 - Present</span></div>
+                    <div class="flex-shrink-0"><span class="text-primary">July 2021 - Present</span></div>
                 </div>
+
                 <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                     <div class="flex-grow-1">
-                        <h3 class="mb-0">Web Developer</h3>
-                        <div class="subheading mb-3">Intelitec Solutions</div>
-                        <p>Capitalize on low hanging fruit to identify a ballpark value added activity to beta test.
-                            Override the digital divide with additional clickthroughs from DevOps. Nanotechnology
-                            immersion along the information highway will close the loop on focusing solely on the bottom
-                            line.</p>
+
+                        <h3 class="mb-0">AUTOMATED WEB SCRAPER <a class="social-icon" href="#projects"><img
+                                    src="/assets/icons/git-32.png" /></a></h3>
+                        <!-- <p>Personal Project</p> -->
+                        <div class="subheading mb-3">Data ETL process - Extract, Transform, Load using AWS </div>
+                        <p>• Collecting latest Canada immigration invitation information every Thu and Fri <br>
+                            • Automated data pipeline using AWS EventBridge as a trigger for ETL process<br>
+                            • Implemented serverless application using AWS Lambda to run python code<br>
+                            • Implemented ETL process collecting data and loading to AWS dynamoDB<br>
+
+                        </p>
+                        <p><b>Technologies</b>: Python, AWS(EventBridge, Lambda, dynamoDB)</p>
+                        <ul class="list-inline dev-icons">
+                            <li class="list-inline-item"><img
+                                    src="https://img.icons8.com/color/48/000000/python--v1.png" /></li>
+                            <li class="list-inline-item"><img src="./assets/icons/bridge.ico" /></li>
+                            <li class="list-inline-item"><img src="./assets/icons/lambda.ico" /></li>
+                            <li class="list-inline-item"><img src="./assets/icons/awsdb.ico" /></li>
+                        </ul>
                     </div>
-                    <div class="flex-shrink-0"><span class="text-primary">December 2011 - March 2013</span></div>
+                    <div class="flex-shrink-0"><span class="text-primary">August 2021 - Present</span></div>
                 </div>
+
                 <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                     <div class="flex-grow-1">
-                        <h3 class="mb-0">Junior Web Designer</h3>
-                        <div class="subheading mb-3">Shout! Media Productions</div>
-                        <p>Podcasting operational change management inside of workflows to establish a framework. Taking
-                            seamless key performance indicators offline to maximise the long tail. Keeping your eye on
-                            the ball while performing a deep dive on the start-up mentality to derive convergence on
-                            cross-platform integration.</p>
+
+                        <h3 class="mb-0">Viking <a class="social-icon" href="#projects"><img
+                                    src="/assets/icons/git-32.png" /></a></h3>
+                        <!-- <p>Personal Project</p> -->
+                        <div class="subheading mb-3">Mobile-friendly Web application (May 2021) </div>
+                        <p>• Users can find real-time availability of bike lockers/parkade online <br>
+                            • Worked in a group project with 3 members using Agile methodology<br>
+                            • Implemented customized map using Google Map API<br>
+
+                        </p>
+                        <p><b>Technologies</b>: Google Map API, JavaScript, HTML/CSS, NodeJs, Firebase, Jquery, npm </p>
+                        <ul class="list-inline dev-icons">
+                            <li class="list-inline-item"><img src="./assets/icons/googlemap.png" /></li>
+                            <li class="list-inline-item"><img
+                                    src="https://img.icons8.com/color/48/000000/javascript--v1.png" /></li>
+                            <li class="list-inline-item"><img
+                                    src="https://img.icons8.com/color/48/000000/html-5--v1.png" /></li>
+                            <li class="list-inline-item"><img src="https://img.icons8.com/color/48/000000/css3.png" />
+                            </li>
+                            <li class="list-inline-item"><img src="https://img.icons8.com/color/48/000000/nodejs.png" />
+                            </li>
+                            <li class="list-inline-item"><img
+                                    src="https://img.icons8.com/color/48/000000/firebase.png" /></li>
+                            <li class="list-inline-item"><img src="./assets/icons/jquery.ico" /></li>
+                            <li class="list-inline-item"><img src="https://img.icons8.com/color/48/000000/npm.png" />
+                            </li>
+
+                        </ul>
                     </div>
-                    <div class="flex-shrink-0"><span class="text-primary">July 2010 - December 2011</span></div>
+                    <div class="flex-shrink-0"><span class="text-primary">May 2021</span></div>
+                </div>
+
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="flex-grow-1">
+
+                        <h3 class="mb-0">jjapguri <a class="social-icon" href="#projects"><img
+                                    src="/assets/icons/git-32.png" /></a></h3>
+                        <!-- <p>Personal Project</p> -->
+                        <div class="subheading mb-3">Text-based role-playing adventure game </div>
+                        <p>• Implemented a single-user dungeon game <br>
+                            • Wrote 200 unit tests and implemented 35 functions<br>
+
+                        </p>
+                        <p><b>Technologies</b>: Python </p>
+                        <ul class="list-inline dev-icons">
+                            <li class="list-inline-item"><img
+                                    src="https://img.icons8.com/color/48/000000/python--v1.png" /></li>
+
+
+                        </ul>
+                    </div>
+                    <div class="flex-shrink-0"><span class="text-primary">Feb - Apr 2021</span></div>
+                </div>
+        </section>
+        <hr class="m-0" />
+
+        <!-- Education-->
+        <section class="resume-section" id="education">
+            <div class="resume-section-content">
+                <h2 class="mb-5">Education</h2>
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0">British Columbia Institute of Technology</h3>
+                        <div class="subheading mb-3">Diploma</div>
+                        <div>Computer Systems Technology</div>
+                        <!-- <p>GPA: 3.23</p> -->
+                    </div>
+                    <div class="flex-shrink-0"><span class="text-primary">January 2021 - Present</span></div>
                 </div>
                 <div class="d-flex flex-column flex-md-row justify-content-between">
                     <div class="flex-grow-1">
-                        <h3 class="mb-0">Web Design Intern</h3>
-                        <div class="subheading mb-3">Shout! Media Productions</div>
-                        <p>Collaboratively administrate empowered markets via plug-and-play networks. Dynamically
-                            procrastinate B2C users after installed base benefits. Dramatically visualize customer
-                            directed convergence without revolutionary ROI.</p>
+                        <h3 class="mb-0">Kyungpook National University</h3>
+                        <div class="subheading mb-3">Chemical Engineeing</div>
+                        <!-- <p>GPA: 3.56</p> -->
                     </div>
-                    <div class="flex-shrink-0"><span class="text-primary">September 2008 - June 2010</span></div>
+                    <div class="flex-shrink-0"><span class="text-primary">Graduation: 2014</span></div>
                 </div>
             </div>
         </section>
         <hr class="m-0" />
+
+
+
+
+
+
+
+
 
         <!-- Experience-->
         <section class="resume-section" id="experience">
@@ -198,139 +303,139 @@
                 <h2 class="mb-5">Experience</h2>
                 <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                     <div class="flex-grow-1">
-                        <h3 class="mb-0">Senior Web Developer</h3>
-                        <div class="subheading mb-3">Intelitec Solutions</div>
-                        <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of
-                            the day, going forward, a new normal that has evolved from generation X is on the runway
-                            heading towards a streamlined cloud solution. User generated content in real-time will have
-                            multiple touchpoints for offshoring.</p>
+                        <h3 class="mb-0">LEADHAND/
+                            AIRCRAFT FUEL AGENT</h3>
+                        <div class="subheading mb-3">Menzies Aviation, Winnipeg, Canada</div>
+                        <p>• Monitored fuel systems, storage tanks, pumps, hydrant pressure, and emergency stop system
+                            status <br>
+                            • Scheduled and dispatched fueling personnel, giving instruction and providing
+                            troubleshooting advice<br>
+                            • Coordinated with dispatchers, airport authority to ensure delivery of fueling/ de-fueling
+                            services in a safe, efficient and timely manner
+                        </p>
                     </div>
-                    <div class="flex-shrink-0"><span class="text-primary">March 2013 - Present</span></div>
+                    <div class="flex-shrink-0"><span class="text-primary">August 2017 - November 2019</span></div>
                 </div>
                 <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                     <div class="flex-grow-1">
-                        <h3 class="mb-0">Web Developer</h3>
-                        <div class="subheading mb-3">Intelitec Solutions</div>
-                        <p>Capitalize on low hanging fruit to identify a ballpark value added activity to beta test.
-                            Override the digital divide with additional clickthroughs from DevOps. Nanotechnology
-                            immersion along the information highway will close the loop on focusing solely on the bottom
-                            line.</p>
+                        <h3 class="mb-0">PROJECT ENGINEER</h3>
+                        <div class="subheading mb-3">Hyundai Engineering, Seoul, Korea (Jan 2014 - Feb 2016)</div>
+                        <p>• Assisted in monitoring project progress, timelines, milestones and prepared various reports
+                            to support monitoring of project progress, costs, quality <br>
+                            • Maintained project data and documentation such as contracts, meeting minutes, bid
+                            packages, purchase orders<br>
+                            • Provided a communication path between client, engineering disciplines, vendors and
+                            contractors to assist with troubleshooting
+                        </p>
                     </div>
-                    <div class="flex-shrink-0"><span class="text-primary">December 2011 - March 2013</span></div>
+                    <div class="flex-shrink-0"><span class="text-primary">January 2014 - Febraury 2016</span>
+                    </div>
                 </div>
                 <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                     <div class="flex-grow-1">
-                        <h3 class="mb-0">Junior Web Designer</h3>
-                        <div class="subheading mb-3">Shout! Media Productions</div>
-                        <p>Podcasting operational change management inside of workflows to establish a framework. Taking
-                            seamless key performance indicators offline to maximise the long tail. Keeping your eye on
-                            the ball while performing a deep dive on the start-up mentality to derive convergence on
-                            cross-platform integration.</p>
+                        <h3 class="mb-0">CHEMICAL
+                            DECONTAMINATION SPECIALIST</h3>
+                        <div class="subheading mb-3">Korean Army</div>
+                        <p>• Operated decontamination equipment and decontaminated persons, terrain and equipment
+                            contaminated by chemical agents <br>
+                            • Performed decontamination operation in the event of Counter NBC Terrorism operation<br>
+                            • Worked as a squad leader for 10 months
+                        </p>
                     </div>
-                    <div class="flex-shrink-0"><span class="text-primary">July 2010 - December 2011</span></div>
+                    <div class="flex-shrink-0"><span class="text-primary">August 2008 - July 2010</span></div>
                 </div>
-                <div class="d-flex flex-column flex-md-row justify-content-between">
-                    <div class="flex-grow-1">
-                        <h3 class="mb-0">Web Design Intern</h3>
-                        <div class="subheading mb-3">Shout! Media Productions</div>
-                        <p>Collaboratively administrate empowered markets via plug-and-play networks. Dynamically
-                            procrastinate B2C users after installed base benefits. Dramatically visualize customer
-                            directed convergence without revolutionary ROI.</p>
-                    </div>
-                    <div class="flex-shrink-0"><span class="text-primary">September 2008 - June 2010</span></div>
-                </div>
+
             </div>
         </section>
         <hr class="m-0" />
-        <!-- Education-->
-        <section class="resume-section" id="education">
-            <div class="resume-section-content">
-                <h2 class="mb-5">Education</h2>
-                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                    <div class="flex-grow-1">
-                        <h3 class="mb-0">University of Colorado Boulder</h3>
-                        <div class="subheading mb-3">Bachelor of Science</div>
-                        <div>Computer Science - Web Development Track</div>
-                        <p>GPA: 3.23</p>
-                    </div>
-                    <div class="flex-shrink-0"><span class="text-primary">August 2006 - May 2010</span></div>
-                </div>
-                <div class="d-flex flex-column flex-md-row justify-content-between">
-                    <div class="flex-grow-1">
-                        <h3 class="mb-0">James Buchanan High School</h3>
-                        <div class="subheading mb-3">Technology Magnet Program</div>
-                        <p>GPA: 3.56</p>
-                    </div>
-                    <div class="flex-shrink-0"><span class="text-primary">August 2002 - May 2006</span></div>
-                </div>
-            </div>
-        </section>
-        <hr class="m-0" />
-
-
-
-
 
         <!-- Interests-->
-        <section class="resume-section" id="interests">
-            <div class="resume-section-content">
-                <h2 class="mb-5">Interests</h2>
-                <p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid
-                    skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking,
-                    free climbing, and kayaking.</p>
-                <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television
-                    shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest
-                    technology advancements in the front-end web development world.</p>
-            </div>
-        </section>
-        <hr class="m-0" />
+        <!-- <section class="resume-section" id="interests">
+                    <div class="resume-section-content">
+                        <h2 class="mb-5">Interests</h2>
+                        <p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am
+                            an avid
+                            skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain
+                            biking,
+                            free climbing, and kayaking.</p>
+                        <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and
+                            television
+                            shows, I am an aspiring chef, and I spend a large amount of my free time exploring the
+                            latest
+                            technology advancements in the front-end web development world.</p>
+                    </div>
+                </section>
+                <hr class="m-0" /> -->
+
         <!-- Awards-->
         <section class="resume-section" id="awards">
             <div class="resume-section-content">
-                <h2 class="mb-5">Awards & Certifications</h2>
-                <ul class="fa-ul mb-0">
-                    <li>
-                        <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                        Google Analytics Certified Developer
-                    </li>
-                    <li>
-                        <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                        Mobile Web Specialist - Google Certification
-                    </li>
-                    <li>
-                        <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                        1
-                        <sup>st</sup>
-                        Place - University of Colorado Boulder - Emerging Tech Competition 2009
-                    </li>
-                    <li>
-                        <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                        1
-                        <sup>st</sup>
-                        Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)
-                    </li>
-                    <li>
-                        <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                        2
-                        <sup>nd</sup>
-                        Place - University of Colorado Boulder - Emerging Tech Competition 2008
-                    </li>
-                    <li>
-                        <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                        1
-                        <sup>st</sup>
-                        Place - James Buchanan High School - Hackathon 2006
-                    </li>
-                    <li>
-                        <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                        3
-                        <sup>rd</sup>
-                        Place - James Buchanan High School - Hackathon 2005
-                    </li>
-                </ul>
+                <h2 class="mb-5">Awards & certifications</h2>
+
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0">IBM DATA ENGINEERING</h3>
+                        <div class="subheading mb-3">Professional Certificate by IBM on Coursera</div>
+                        <ul>
+                            <li>Introduction to Data Engineering <a href="#"><img src="https://img.icons8.com/ios/24/000000/certificate.png" /></a></li>
+                            <li>Python for Data Science, AI & Development <a href="#"><img src="https://img.icons8.com/ios/24/000000/certificate.png" /></a></li>
+                            <li>Python Project for Data Engineering <a href="#"><img src="https://img.icons8.com/ios/24/000000/certificate.png" /></a></li>
+                            <!-- <li>Introduction to Relational Databases (RDBMS) </li>
+                            <li>Databases and SQL for Data Science with Python </li>
+                            <li>Introduction to NoSQL Databases </li>
+                            <li>Introduction to Big Data with Spark and Hadoop </li>
+                            <li>Data Engineering and Machine Learning using Spark </li>
+                            <li>Hands-on Introduction to Linux Commands and Shell Scripting </li>
+                            <li>Relational Database Administration (DBA) </li>
+                            <li>ETL and Data Pipelines with Shell, Airflow and Kafka </li>
+                            <li>Getting Started with Data Warehousing and BI Analytics </li>
+                            <li>Data Engineering Capstone Project </li> -->
+
+                        </ul>
+  
+                    </div>
+                    <div class="flex-shrink-0"><span class="text-primary">May 2021 - Present</span></div>
+                </div>
+
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0">STATISTICS AND DATA SCIENCE</h3>
+                        <div class="subheading mb-3">MicroMasters by MITx on edX</div>
+                        <ul>
+                            <li>Probability - The Science of Uncertainty and Data <a href="#"><img src="https://img.icons8.com/ios/24/000000/certificate.png" /></a></li>
+
+                            <!-- <li>Introduction to Relational Databases (RDBMS) </li>
+                            <li>Databases and SQL for Data Science with Python </li>
+                            <li>Introduction to NoSQL Databases </li>
+                            <li>Introduction to Big Data with Spark and Hadoop </li>
+                            <li>Data Engineering and Machine Learning using Spark </li>
+                            <li>Hands-on Introduction to Linux Commands and Shell Scripting </li>
+                            <li>Relational Database Administration (DBA) </li>
+                            <li>ETL and Data Pipelines with Shell, Airflow and Kafka </li>
+                            <li>Getting Started with Data Warehousing and BI Analytics </li>
+                            <li>Data Engineering Capstone Project </li> -->
+
+                        </ul>
+  
+                    </div>
+                    <div class="flex-shrink-0"><span class="text-primary">July 2021 - Present</span></div>
+                </div>
+
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0">Project Viking</h3>
+                        <div class="subheading mb-3"><i class="fas fa-trophy text-warning"></i> 2nd Place - Most useful web application among 51 teams</div>
+                        <p>British Columbia Institute of Technology, Canada</p>
+                    </div>
+                    <div class="flex-shrink-0"><span class="text-primary">May 2021</span></div>
+                </div>
+
             </div>
         </section>
     </div>
+
+
+
     <!-- Bootstrap core JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Core theme JS-->
