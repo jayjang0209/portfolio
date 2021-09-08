@@ -18,6 +18,9 @@
     <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
+
+    
+
 </head>
 
 <body id="page-top">
@@ -39,7 +42,7 @@
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
                 <!-- <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li> -->
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Awards</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Certifications & Awards</a></li>
             </ul>
         </div>
     </nav>
@@ -62,9 +65,10 @@
                 </div>
                 <p class="lead mb-5"></p>
                 <div class="social-icons">
-                    <a class="social-icon" href="https://www.linkedin.com/in/jayjjang/"><i
+                    <a class="social-icon" href="https://www.linkedin.com/in/jayjjang/" target="_blank"><i
                             class="fab fa-linkedin-in"></i></a>
-                    <a class="social-icon" href="https://github.com/jayjang0209"><i class="fab fa-github"></i></a>
+                    <a class="social-icon" href="https://github.com/jayjang0209" target="_blank"><i
+                            class="fab fa-github"></i></a>
                     <!-- <a class="social-icon" href="#!"><i class="fab fa-twitter"></i></a>
                         <a class="social-icon" href="#!"><i class="fab fa-facebook-f"></i></a> -->
                 </div>
@@ -209,16 +213,26 @@
                 <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                     <div class="flex-grow-1">
 
-                        <h3 class="mb-0">Viking <a class="social-icon" href="#projects"><img
-                                    src="/assets/icons/git-32.png" /></a></h3>
+
+
+                        <h3 class="mb-0">Viking
+                            <a class="social-icon" href="https://viking-eaee3.web.app/" target="_blank"><img id='viking'
+                                    src="/assets/icons/viking.ico" data-toggle="tooltip" data-placement="bottom"
+                                    title="Viking application" /></a>
+                            <a class="social-icon" href="https://www.youtube.com/watch?v=qbOxSivrS_A"
+                                target="_blank"><img src="https://img.icons8.com/color/32/000000/youtube-play.png"
+                                    data-toggle="tooltip" data-placement="bottom" title="Final presentation" /></a>
+                        </h3>
                         <!-- <p>Personal Project</p> -->
-                        <div class="subheading mb-3">Mobile-friendly Web application (May 2021) </div>
-                        <p>• Users can find real-time availability of bike lockers/parkade online <br>
+                        <div class="subheading mb-3">Mobile-friendly Web application</div>
+                        <p>• Users can find real-time availability of bike lockers/parkade online and reserve a lockers remotely <br>
+                            • Additional features for finding the neared air pumps and service centers and for filtering the popular biking routes<br>
                             • Worked in a group project with 3 members using Agile methodology<br>
                             • Implemented customized map using Google Map API<br>
+                            • Used Google Firebase as a database
 
                         </p>
-                        <p><b>Technologies</b>: Google Map API, JavaScript, HTML/CSS, NodeJs, Firebase, Jquery, npm </p>
+                        <p><b>Technologies</b>: Google Maps API, JavaScript, HTML/CSS, NodeJs, Firebase, Jquery, npm </p>
                         <ul class="list-inline dev-icons">
                             <li class="list-inline-item"><img src="./assets/icons/googlemap.png" /></li>
                             <li class="list-inline-item"><img
@@ -243,13 +257,15 @@
                 <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                     <div class="flex-grow-1">
 
-                        <h3 class="mb-0">jjapguri <a class="social-icon" href="https://github.com/jayjang0209/jjapaguri" target="_blank"><img
-                                    src="/assets/icons/git-32.png" /></a></h3>
+                        <h3 class="mb-0">jjapaguri <a class="social-icon"
+                                href="https://github.com/jayjang0209/jjapaguri" target="_blank"><img
+                                    src="/assets/icons/git-32.png" data-toggle="tooltip" data-placement="bottom"
+                                    title="GitHub link" /></a></h3>
                         <!-- <p>Personal Project</p> -->
                         <div class="subheading mb-3">Text-based role-playing adventure game </div>
                         <p>• Implemented a single-user dungeon game <br>
                             • Wrote 200 unit tests and implemented 35 functions<br>
-                            • Used ASCII art to display graphical partial map 
+                            • Used ASCII art to display graphical partial map
 
                         </p>
                         <p><b>Technologies</b>: Python </p>
@@ -281,7 +297,8 @@
                 <div class="d-flex flex-column flex-md-row justify-content-between">
                     <div class="flex-grow-1">
                         <h3 class="mb-0">Kyungpook National University</h3>
-                        <div class="subheading mb-3">Chemical Engineeing</div>
+                        <div class="subheading mb-3">Bachelor of Science</div>
+                        <div>Chemical Engineeing</div>
                         <!-- <p>GPA: 3.56</p> -->
                     </div>
                     <div class="flex-shrink-0"><span class="text-primary">Graduation: 2014</span></div>
@@ -371,16 +388,19 @@
         <!-- Awards-->
         <section class="resume-section" id="awards">
             <div class="resume-section-content">
-                <h2 class="mb-5">Awards & certifications</h2>
+                <h2 class="mb-5">Certifications & Awards</h2>
 
                 <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                     <div class="flex-grow-1">
                         <h3 class="mb-0">IBM DATA ENGINEERING</h3>
                         <div class="subheading mb-3">Professional Certificate by IBM on Coursera</div>
                         <ul>
-                            <li>Introduction to Data Engineering <a href="#"><img src="https://img.icons8.com/ios/24/000000/certificate.png" /></a></li>
-                            <li>Python for Data Science, AI & Development <a href="#"><img src="https://img.icons8.com/ios/24/000000/certificate.png" /></a></li>
-                            <li>Python Project for Data Engineering <a href="#"><img src="https://img.icons8.com/ios/24/000000/certificate.png" /></a></li>
+                            <li>Introduction to Data Engineering <a href="#"><img
+                                        src="https://img.icons8.com/ios/24/000000/certificate.png" /></a></li>
+                            <li>Python for Data Science, AI & Development <a href="#"><img
+                                        src="https://img.icons8.com/ios/24/000000/certificate.png" /></a></li>
+                            <li>Python Project for Data Engineering <a href="#"><img
+                                        src="https://img.icons8.com/ios/24/000000/certificate.png" /></a></li>
                             <!-- <li>Introduction to Relational Databases (RDBMS) </li>
                             <li>Databases and SQL for Data Science with Python </li>
                             <li>Introduction to NoSQL Databases </li>
@@ -393,7 +413,7 @@
                             <li>Data Engineering Capstone Project </li> -->
 
                         </ul>
-  
+
                     </div>
                     <div class="flex-shrink-0"><span class="text-primary">May 2021 - Present</span></div>
                 </div>
@@ -403,7 +423,8 @@
                         <h3 class="mb-0">STATISTICS AND DATA SCIENCE</h3>
                         <div class="subheading mb-3">MicroMasters by MITx on edX</div>
                         <ul>
-                            <li>Probability - The Science of Uncertainty and Data <a href="#"><img src="https://img.icons8.com/ios/24/000000/certificate.png" /></a></li>
+                            <li>Probability - The Science of Uncertainty and Data <a href="#"><img
+                                        src="https://img.icons8.com/ios/24/000000/certificate.png" /></a></li>
 
                             <!-- <li>Introduction to Relational Databases (RDBMS) </li>
                             <li>Databases and SQL for Data Science with Python </li>
@@ -417,7 +438,7 @@
                             <li>Data Engineering Capstone Project </li> -->
 
                         </ul>
-  
+
                     </div>
                     <div class="flex-shrink-0"><span class="text-primary">July 2021 - Present</span></div>
                 </div>
@@ -425,7 +446,8 @@
                 <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                     <div class="flex-grow-1">
                         <h3 class="mb-0">Project Viking</h3>
-                        <div class="subheading mb-3"><i class="fas fa-trophy text-warning"></i> 2nd Place - Most useful web application among 51 teams</div>
+                        <div class="subheading mb-3"><i class="fas fa-trophy text-warning"></i> 2nd Place - Most useful
+                            web application among 51 teams</div>
                         <p>British Columbia Institute of Technology, Canada</p>
                     </div>
                     <div class="flex-shrink-0"><span class="text-primary">May 2021</span></div>
@@ -434,6 +456,10 @@
             </div>
         </section>
     </div>
+
+    <a href="https://icons8.com/">
+        <p id='icon'>icons by icons8</p>
+    </a>
 
 
 

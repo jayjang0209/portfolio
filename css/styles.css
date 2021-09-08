@@ -33,7 +33,7 @@
   --bs-gray-700: #495057;
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
-  --bs-primary: #bd5d38;
+  --bs-primary: #C2331A;
   --bs-secondary: #6c757d;
   --bs-success: #198754;
   --bs-info: #0dcaf0;
@@ -107,6 +107,15 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   font-weight: 700;
   line-height: 1.2;
   color: #343a40;
+}
+
+#icon {
+  text-align: right;
+  font-size: small;
+}
+
+#viking {
+  border-radius: 50%;
 }
 
 h1, .h1 {
@@ -236,7 +245,7 @@ sup {
 }
 
 a {
-  color: #bd5d38;
+  color: #C2331A;
   text-decoration: underline;
 }
 a:hover {
@@ -11388,7 +11397,7 @@ p.lead {
   margin-right: 0;
 }
 .social-icons .social-icon:hover {
-  background-color: #bd5d38;
+  background-color: #C2331A;
 }
 
 .dev-icons {
